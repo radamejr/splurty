@@ -37,8 +37,8 @@ h2{
     border-radius: 100%;
     background: #E67609;
     border: 1px solid #E67609;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px 10px;
     text-align: center;
     color: #FFF;
@@ -75,7 +75,7 @@ padding-top: 26px;
 
   color: #f84342;
   font-family:'sf_cartoonist_handregular', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 
 }
 
@@ -85,4 +85,10 @@ padding-top: 26px;
   font-style: italic;
   font-align: right;
   font-size: 20px;
+}
+
+.logo:hover{
+
+  text-decoration: none;
+
 }
