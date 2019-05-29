@@ -15,11 +15,11 @@
       <div class="col-3">
         <div class="circle">
             <br />
-            You know
+            Quoth the
             <br />
-            you need
+            Raven, 
             <br />
-            to code
+            "Nevermore"
         </div>
 
       </div>
@@ -39,6 +39,26 @@
 
     <br class="clear" />
     
+    <div class="container">
     <%= yield %>
+    </div>
+
+    <div class ="footer">
+      <div class ="container">
+        <div class="row">
+          <div class="col-6">
+            <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+           </div>
+
+          <div class="col-6 footer-blurb">
+            Proudly thrown together by <a href="https://adame.netlify.com/">Robert Adame</a><br />
+            Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com">Learn how to code here</a>
+          
+        </div>
+      </div>
+    </div>
+
+
+
   </body>
 </html>
