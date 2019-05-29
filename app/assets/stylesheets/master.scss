@@ -1,5 +1,6 @@
 @import "bootstrap";
 
+
 header{
 border-top:  9px solid #222222
 
@@ -9,6 +10,20 @@ hr{
 
   clear:both;
 
+}
+
+h1{
+
+  font-family: "sf_cartoonist_handregular", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+
+}
+
+h2{
+
+  font-family: 'sf_cartoonist_handitalic', sans-serif;
+  font-weight: bold;
 }
 
 .clear {
@@ -52,5 +67,7 @@ padding-top: 26px;
   color: #E67609;
   font-size: 25px;
   border-bottom: 1px solid #0979E6;
+  font-family: 'sf_cartoonist_handregular', sans-serif;
+  font-weight: bold;
 }
 
