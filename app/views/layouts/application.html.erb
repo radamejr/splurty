@@ -30,11 +30,44 @@
       </div>
 
       <div class ="col-5 links">
-        <%= link_to 'Contribute', new_quote_path %>
+        <!-- Button trigger modal -->
+        <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
         <%= link_to 'About', about_path %>
       </div>
 
     </header>
+
+
+        
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add a "Quote!"</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <%= simple_form_for Quote.new do |f| %>
+                <div class="modal-body">
+                  
+
+                  <%= f.input :saying%>
+                  <%= f.input :author%>
+             
+                
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <%= f.submit 'Submit Quote', class: 'btn btn-success' %>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+
 
     <hr />
 
@@ -42,7 +75,7 @@
     
     <div class="container">
           <% if flash[:error].present? %>
-          <div class="cold-10 offset-1 alert alert-danger"
+          <div class="cold-10 offset-1 alert alert-danger">
             <%= flash[:error].html_safe %>
           </div>
         <% end %>
