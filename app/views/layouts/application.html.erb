@@ -25,13 +25,14 @@
         <% end %>
       </div>
 
-      <div class ="col-4 slogan">
+      <div class ="col-4 slogan hidden-xs-down slogan">
         Pick a quote any quote.
       </div>
 
-      <div class ="col-5 links">
+      <div class ="cold-10 offset-1 offset-sm-0 col-sm-5 links">
         <!-- Button trigger modal -->
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+        &nbsp;&nbsp;
         <%= link_to 'About', about_path %>
       </div>
 
@@ -54,8 +55,9 @@
                 <div class="modal-body">
                   
 
-                  <%= f.input :saying%>
-                  <%= f.input :author%>
+                  <%= f.input :saying, label: "What is the quote you want to add?" , placeholder: "This is the song that never ends" %>
+                  <br />
+                  <%= f.input :author, label: "Who said this?", placeholder: "Lambchop" %>
              
                 
                 </div>
@@ -86,11 +88,11 @@
     <div class ="footer">
       <div class ="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-sm-6">
             <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
            </div>
 
-          <div class="col-6 footer-blurb">
+          <div class="col-12 col-sm-6 footer-blurb">
             Proudly thrown together by <a href="https://adame.netlify.com/">Robert Adame</a><br />
             Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com">Learn how to code here</a>
           
