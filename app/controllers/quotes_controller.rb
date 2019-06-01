@@ -8,7 +8,7 @@ class QuotesController < ApplicationController
 
       if @quote.invalid?
 
-        flash[:error] = '<strong> Could not save, </strong> the data entered is invalid'
+        flash[:error] = 'Could not save. Quote and Author require minimum 3 characters with a max of 140 and 50'
 
       end
 
