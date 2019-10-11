@@ -1,24 +1,20 @@
-# README
+# Splurty
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Splurty is a custom web-app that allows visitors to get a dose of random quotes submitted by other visitors to the site. Sometimes simplicity is the greatest ally. Feel free to give it a test and even add your own quotes!
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+You can visit this application in the wild by clicking [here]. (https://splurty-robert-adame.herokuapp.com/)
 
-* System dependencies
+## Notable Languages, Systems and Gems Used
 
-* Configuration
+- Ruby on Rails
+- [Simple Form](https://github.com/plataformatec/simple_form)
+- [Bootstrap](https://github.com/twbs/bootstrap-rubygem)
 
-* Database creation
 
-* Database initialization
+## Authors
 
-* How to run the test suite
+* **Robert Adame** - [GitHub](https://github.com/radamejr)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
