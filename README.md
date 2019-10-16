@@ -4,7 +4,7 @@ Splurty is a custom web-app that allows visitors to get a dose of random quotes 
 
 ## Getting Started
 
-You can visit this application in the wild by clicking [here]. (https://splurty-robert-adame.herokuapp.com/)
+You can visit this application in the wild by clicking [here.](https://splurty-robert-adame.herokuapp.com/)
 
 ## Notable Languages, Systems and Gems Used
 
