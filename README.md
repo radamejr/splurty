@@ -6,6 +6,18 @@ Splurty is a custom web-app that allows visitors to get a dose of random quotes 
 
 You can visit this application in the wild by clicking [here.](https://splurty-robert-adame.herokuapp.com/)
 
+
+## Adding a Quote
+To add your own favorite quote, click on the "Contribute" link.
+
+![add](https://github.com/radamejr/splurty/blob/master/app/assets/images/add-quote.png)
+
+
+And fill out your quotes information.
+
+![add](https://github.com/radamejr/splurty/blob/master/app/assets/images/add-quote2.png)
+
+
 ## Notable Languages, Systems and Gems Used
 
 - Ruby on Rails
